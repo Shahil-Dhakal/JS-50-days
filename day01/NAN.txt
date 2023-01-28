@@ -1,0 +1,9 @@
+function shahil(x){
+    if(isNAN(x)){
+        return Number.NAN;
+    }
+    return x;
+}
+
+console.log(shahil(5));
+console.log(shahil("Five"));
